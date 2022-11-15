@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style3.css">
+    <title>Add Book</title>
+</head>
+<body>
+    <h1>Add Book</h1>
+    <form action="homepage.html" id="applyCourseForm" method="_POST">
+        <div class="ceter-content2">
+            <div class="group">
+                <input type="text" id="imageURL" placeholder="Image URL">
+                <p class="errorMessage">Image URL must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+            
+            <div class="group">
+                <input type="text" id="title" placeholder="Title">
+                <p class="errorMessage">Title must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+
+            <div class="group">
+                <select id="author" onchange="myFunction()">
+                </select>
+                <p class="errorMessage">Author must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+    
+            <div class="group">
+                <input type="text" id="year" placeholder="Year">
+                <p class="errorMessage">Year must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+       
+            <div class="group">
+                <select id="categories">
+                </select>
+                <p class="errorMessage">Categories must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+    
+            <div class="group">
+                <input type="text" id="ISBN" placeholder="ISBN">
+                <p class="errorMessage">ISBN must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+
+            <div class="group">
+                <textarea type="text" id="descriptoin" placeholder="Descriptoin" rows="4" cols="50"></textarea>
+                <p class="errorMessage">Descriptoin must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+            </div>
+        </div>
+        <hr>
+            <input type="submit" value="Save"  id="add" class="btn">
+            <a href="homepage.html"><button type="button" class="btn">Cancel</button></a>
+            <tbody class="book-test"></tbody>
+    </body>
+    <script src="script/addBook.js"></script>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Golden Book</title>
+</head>
+    <body>
+        <header>
+            <h1>Golden Book.</h1>
+        </header>
+        <form class="ceter-content2" action="homepage.html" id="applyCourseForm" method="_POST">
+            <img src="images/old-books-wallpaper.jpg">
+            <div class="sing-up-style">
+                <h1>Login</h1><br>
+                <div class="group">
+                    <input type="text" id="email" placeholder="Email">
+                    <p class="errorMessage">Email must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+                </div>
+                <br><br>
+                <div class="group">
+                    <input type="password" id="password" placeholder="Password">
+                    <p class="errorMessage"> Password must be in valid format.<img id="picError"src="images/error-icon.png" ></p>
+                </div>
+                
+                <p>Don't have an account? <a href="sign-up.html" class="log-in-class">Sign Up</a></p><br>
+                
+                <!-- <a class="link-sign-up"><button type="button" class="btn">LOGIN</button></a> -->
+                <input type="submit" value="LOGIN"  class="btn">
+            </div>
+        </form>
+        <footer>
+            <p>ANGULAR WORKSHOP 2022</p>
+        </footer>
+    </body>
+    <script src="script/validatoin.js"></script>
+</html>

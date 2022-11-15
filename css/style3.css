@@ -1,0 +1,56 @@
+.display-none {
+    display: none;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+}
+.errorMessage {
+    color: red;
+}
+body{
+    background-color:#fff9e6 ;
+}
+.ceter-content2{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 40px;
+    padding: 20px;
+}
+input{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff9e6 ;
+}
+textarea{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff9e6 ;
+}
+select{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff9e6 ;
+}
+input[type=submit],button{
+    color: white;
+    background-color: #796859;
+    cursor: pointer;
+    border: none;
+    font-size: 11px;
+    margin: 5px 10px;
+    padding: 10px 30px;
+    z-index: 1;
+    position: relative;
+    width: max-content;
+}
+button :hover{
+    color:  #796859;
+    background-color: white;
+
+}
+input[type=submit]:hover{
+    color:  #796859;
+    background-color: white;
+
+}

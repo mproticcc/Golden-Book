@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400&display=swap');
+body{
+    background: rgb(134,116,99);
+    background: linear-gradient(0deg, rgba(134,116,99,1) 2%, rgba(22,15,9,1) 7%, rgba(22,15,9,1) 95%, rgba(134,116,99,1) 100%);
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4%;
+}
+header img{
+    width: 25px;
+    height: 25px;
+}
+header div{
+    position: relative;
+    display: flex;
+}
+.navigation{
+    display: none;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.7;
+    z-index: 1;
+    position: relative;
+    width: 15%;
+    padding: 7px 0px;
+}
+.navigation li{
+    list-style-type: none;
+    padding: 7px 15px;
+    z-index: 1;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    border-right: 3px solid transparent;
+}
+.navigation a{
+    text-decoration: none;
+    color:#fff9e6;
+    font-size: 18px;
+    opacity: 0.7;
+    z-index: 1;
+}
+.navigation li:hover{
+    color:#ede5de;
+    background-color: #626262;
+    border-right: 3px solid #fff9e6;
+    cursor: pointer;
+}
+.navigation img{
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 7px;
+    left: -6px;
+}
+#search{
+    position: relative;
+}
+#search img{
+    width: 33px;
+    position: relative;
+    top: 20px;
+    right: 52px;
+    z-index: 2;
+}
+.center-concent{
+    position: relative;
+    display: flex;
+    z-index: 1;
+}
+
+.img-background{
+    position: absolute;
+    z-index: 0;
+    width: 70%;
+    left: 1%;
+    top: 10%;
+    height: 90%;
+}
+.navi{
+    position: relative;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+    margin-bottom: 3%;
+    width: 100%;
+}
+
+.navi input[type=text]{
+    background-color: #f4e5d9;
+    color: #201002;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: left;
+    width: 33vw;
+    height: 6vh;
+    margin: 10px;
+    padding: 2px;
+}
+.navi select,option{
+    background-color: #f4e5d9;
+    color: #201002;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    text-align: left;
+    width: 33vw;
+    height: 7vh;
+    margin: 10px;
+    padding: 2px;
+}
+.navi input::placeholder{
+    color: #000000;
+}
+
+.class1{
+    position: relative;
+    display: flex;
+    margin: 8px;
+    background: #f4e5d9;
+    z-index: 1;
+    width: 95%;
+}
+.class2{
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    z-index: 1;
+    position: relative;
+}
+.class2 img{
+    height: 42vh;
+    width: 11vw;
+    z-index: 1;
+    position: relative;
+}
+.class3{
+    float: left;
+    padding: 15px;
+    width: 50%;
+    z-index: 1;
+    position: relative;
+}
+.class3 button{
+    color: white;
+    background-color: #796859;
+    border: none;
+    font-size: 11px;
+    margin: 5px 10px;
+    padding: 10px 30px;
+    z-index: 1;
+    position: relative;
+    width: max-content;
+}
+.class3 button:hover{
+    color: white;
+    background-color: #493e36;
+    cursor: pointer;
+}
+footer p{
+    position: relative;
+    bottom: 0px;
+    right: auto;
+    left: auto;
+    text-align: center;
+    color: #f4e5d9;
+    z-index: 1;
+    position: relative;
+}
+
+img{
+    margin: 5px; 
+}
+h3{
+    margin: 5px 10px; 
+}
+h1{
+    margin: 0px 10px;
+    color: #fff9e6; 
+}
+h4{
+    color: #d1ccbd; 
+    margin: 5px 10px; 
+}
+.order{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
+    width: 70%;
+}
+.line{
+    border-left: 1px solid #f4e5d9;
+    margin-left: 19px;
+    padding: 10px 5px;
+    z-index: 1;
+    position: relative;
+    margin-right: 4%;
+    width: 85%;
+    /* border: 2px solid black; */
+}
+.right{
+    position: absolute;
+    right: 0;
+    color: #f4e5d9;
+    font-size: 15px;
+    z-index: 1;
+    /* border: 2px solid white; */
+    /* word-spacing: 5px; */
+}
+.right select{
+    background-color: transparent;
+    color: #f4e5d9;
+    border: none;
+    border-bottom: 1px solid #f4e5d9;
+    padding-bottom: 1px;
+}
+#categoriesID{
+    display: none;
+}
+#adminId{
+    display: none;
+}
+#stripesButton{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}

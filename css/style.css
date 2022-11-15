@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,700;1,100;1,300;1,400&display=swap');
+body{
+    background: rgb(22,15,9);
+    background: linear-gradient(90deg, rgba(22,15,9,1) 0%, rgba(22,15,9,1) 66%, rgba(134,116,99,1) 96%);
+    /* background-image: url("../images/old-books-wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left; 
+    background-size: 50% 100%; */
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.links{
+    margin: 20px;
+}
+
+header a{
+    padding: 5px 10px;
+    background-color: #fff9e6;
+    color:#201002 ;
+    text-decoration: none;
+    justify-content: space-between;
+    border: none;
+    border-radius: 5px;
+}
+.btn-login{
+    padding: 5px 10px;
+    background-color: transparent;
+    color:#fff9e6 ;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+.btn-login:hover{
+    padding: 5px 10px;
+    background-color: #fff9e6;
+    color:#201002 ;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+h1{
+    color: #fff9e6;
+    font-size: 60px;
+}
+p,h2,pre{
+    color: #fff9e6;
+    font-family: 'Roboto', sans-serif;
+}
+pre{
+    font-style: italic;
+}
+.right{
+    text-align: right;
+    right: 2%;
+    position: absolute;
+    z-index: 1;
+    font-size: 30px;
+
+}
+
+.ceter-content{
+    position: relative;
+    display: flex;
+    
+}
+
+.ceter-content img{
+    position: relative;
+    z-index: 0;
+    width: 50%;
+    left: 7%;
+    height: 50%;
+}
+.log-in-class{
+    background-color: transparent;
+    color:#fff9e6 ;
+}
+.ceter-content button{
+    width: 70%;
+    height: 50px;
+    background-color: #fff9e6;
+    color:#201002 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.link-sign-up{
+    text-decoration: none;
+}
+
+.ceter-content button:hover{
+    cursor: pointer;
+    background-color:  #201002 ;
+    color:#fff9e6;
+}
+footer p{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+}
+.ceter-content2{
+    position: relative;
+    display: flex;
+}
+.ceter-content2 img{
+    position: relative;
+    z-index: 0;
+    width: 50%;
+    left: 7%;
+}
+.btn:hover{
+    background-color: #201002;
+    color:#fff9e6 ;
+    cursor: pointer;
+}
+.btn{
+    width: 100%;
+    height: 50px;
+    background-color: #fff9e6;
+    color:#201002 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.ceter-content2 input{
+    width: 100%;
+    height: 50px;
+    background-color: #fff9e6;
+    color:#201002 ;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px;
+}
+.ceter-content2 h1{
+    text-align: left;
+}
+.sing-up-style{
+    text-align: right;
+    right: 2%;
+    position: absolute;
+    z-index: 1;
+    width: 27%;
+}
+.errorMessage {
+    color: red;
+}
+.display-none {
+    display: none;
+}
+.group {
+    display: flex;
+    flex-direction: column;
+}
+#picError {
+    width:16px !important; 
+    height:15px;
+}
