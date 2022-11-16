@@ -45,7 +45,7 @@ document.getElementById("applyCourseForm").addEventListener("submit", function(e
 
     let isYearValid = regexYear.test(year.value);
 
-    if(year.value<2022){
+    if(year.value>2022){
         isYearValid = false;
     }
 
@@ -60,7 +60,7 @@ document.getElementById("applyCourseForm").addEventListener("submit", function(e
 
 
     const title = document.getElementById("title");
-    const regexTitle = /^[A-Z][A-Za-z0-9_-]{10,50}$/ ; 
+    const regexTitle = /^[A-Z][A-Za-z0-9\s]{10,50}$/ ; 
 
     const isTitlelValid = regexTitle.test(title.value);
 
@@ -74,7 +74,7 @@ document.getElementById("applyCourseForm").addEventListener("submit", function(e
     console.log(isFormValid);
 
     const descriptoin = document.getElementById("descriptoin");
-    const regexDescriptoin = /^[A-Za-z0-9]{1,250}$/ ; 
+    const regexDescriptoin = /^[A-Za-z0-9\s]{1,250}$/ ; 
 
     const isDescriptoinValid = regexDescriptoin.test(descriptoin.value);
 
