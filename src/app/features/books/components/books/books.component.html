@@ -1,0 +1,17 @@
+<div class="navi">
+  <h1>Homepage</h1>
+  <div class="navigation-order">
+    <app-search></app-search>
+    <app-filterbar></app-filterbar>
+  </div>
+  <div class="order">
+    <app-book
+      *ngFor="let book of books"
+      [book]="book"
+      (delete)="deleteBook(book)"
+      (softDelete)="softDeleteBook(book)"
+    >
+    </app-book>
+  </div>
+</div>
+<app-page-number></app-page-number>

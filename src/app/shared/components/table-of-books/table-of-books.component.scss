@@ -1,0 +1,72 @@
+@import "../../../../styles/variables";
+
+img {
+  width: 65px;
+  height: 95px;
+  border-radius: 5px;
+}
+
+table,
+tr,
+td {
+  padding: 10px !important;
+  background-color: $cream-book-color;
+}
+
+th.mat-header-cell {
+  padding: 10px;
+}
+
+.wrapper-pagination {
+  background-color: $cream-book-color;
+  ::ng-deep {
+    &.mat-paginator {
+      background-color: transparent;
+      color: $book-button-color;
+      z-index: 1;
+      margin-top: 5px;
+
+      .mat-select-value-text,
+      .mat-select-arrow,
+      .mat-select-min-line {
+        color: $book-button-color !important;
+      }
+    }
+
+    .mat-paginator-page-size-select {
+      background: transparent;
+      color: $book-button-color;
+    }
+  }
+}
+
+.th.mat-header-cell:first-of-type,
+td.mat-cell:first-of-type,
+td.mat-footer-cell:first-of-type {
+  font-size: 30px;
+}
+
+.dialog-button {
+  border: none;
+  text-decoration: underline;
+  color: rgb(63, 63, 244);
+}
+
+.ellipsis {
+  position: relative;
+  width: 90%;
+
+  &:before {
+    content: " ";
+    visibility: hidden;
+  }
+
+  p {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

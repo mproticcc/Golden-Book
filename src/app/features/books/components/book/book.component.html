@@ -1,0 +1,23 @@
+<mat-card class="example-card" [appHighlighter]="book.category">
+  <mat-card-header>
+    <mat-card-title>{{ book.name | titlecase }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-xl-image [src]="book.image" />
+  <mat-card-content>
+    <p>
+      <b class="author">{{ book | authorFullName }}</b>
+      {{ book.year | date : "yyyy" }}
+    </p>
+    <p class="category">Category: {{ book.category }}</p>
+    <p class="description">
+      {{ book.description | descriptionLimit }}
+    </p>
+    <mat-card-actions>
+      <button [routerLink]="['/books', book.id]" mat-button>
+        BOOK OVERVIEW
+      </button>
+      <button (click)="onDelete()" mat-button>DELETE BOOK</button>
+      <button (click)="onSoftDelete()" mat-button>SOFT DELETE</button>
+    </mat-card-actions>
+  </mat-card-content>
+</mat-card>

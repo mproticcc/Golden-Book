@@ -1,0 +1,71 @@
+@import "../../../../../../styles/variables";
+h1 {
+  color: $cream-book-color;
+  font-size: 60px;
+}
+
+p {
+  color: $cream-book-color;
+}
+
+.log-in-class {
+  background-color: transparent;
+  color: $cream-book-color;
+
+  &:hover {
+    color: $book-button-color;
+  }
+}
+
+.link-sign-up {
+  text-decoration: none;
+}
+
+.center-content {
+  top: 30%;
+  position: relative;
+  display: flex;
+
+  input {
+    width: 100%;
+    height: 50px;
+    background-color: $cream-book-color;
+    color: $book-search-inp;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 2px;
+  }
+
+  h1 {
+    text-align: left;
+  }
+}
+
+button {
+  width: 100%;
+  height: 50px;
+  background-color: $cream-book-color;
+  color: $book-search-inp;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+
+  &:hover {
+    background-color: $book-search-inp;
+    color: $cream-book-color;
+    cursor: pointer;
+  }
+}
+
+.sing-up-style {
+  text-align: right;
+  right: 2%;
+  position: absolute;
+  width: 25%;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+}

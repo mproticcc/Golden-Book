@@ -1,0 +1,51 @@
+@import "../../../../../styles/variables";
+
+.header {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4%;
+
+  .log-out {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    color: $cream-book-color;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:active {
+      background-color: $book-button-color-hv;
+      border-radius: 40%;
+    }
+  }
+
+  div {
+    position: relative;
+    display: flex;
+  }
+
+  h1 {
+    margin: 5px 0px 4px 10px;
+    color: $cream-book-color;
+    position: relative;
+    left: 40px;
+    cursor: pointer;
+  }
+
+  .toggleButton {
+    position: absolute;
+    top: 7px;
+    left: 7px;
+    color: $cream-book-color;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+    &:active {
+      background-color: $book-button-color-hv;
+      border-radius: 40%;
+    }
+  }
+}

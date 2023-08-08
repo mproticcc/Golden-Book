@@ -1,0 +1,33 @@
+@import "../../../../../styles/variables";
+
+.order {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+
+app-book {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+}
+
+.navi {
+  width: 85%;
+  margin: auto;
+
+  h1 {
+    position: relative;
+    left: 3%;
+    color: $cream-book-color;
+  }
+}
+
+.navigation-order {
+  margin: auto;
+  justify-content: space-evenly;
+  display: flex;
+  width: 100%;
+}

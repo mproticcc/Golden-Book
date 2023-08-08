@@ -1,0 +1,36 @@
+<div class="center-content" *ngIf="book; else elseBlock">
+  <div class="wrapper">
+    <h1>Book Overview - {{ book.name | titlecase }}</h1>
+    <div class="container" [appHighlighter]="book.category">
+      <div class="left-side">
+        <h2>{{ book.name | titlecase }}</h2>
+        <img [src]="book.image" />
+      </div>
+      <div class="right-side">
+        <br /><br /><br /><br />
+        <p>
+          <b>{{ book | authorFullName }}</b> {{ book.year | date : "yyyy" }}
+        </p>
+        <p>Country: USA</p>
+        <p>Category: {{ book.category }}</p>
+        <p>ISBN: {{ book.ISBN }}</p>
+        <p>
+          {{ book.description }}
+        </p>
+
+        <p>
+          <b>{{ book.reviews[0].firstName }} {{ book.reviews[0].lastName }}</b
+          >,{{ book.reviews[0].country }}
+        </p>
+        <p>
+          {{ book.reviews[0].comment }}
+        </p>
+        <br />
+      </div>
+    </div>
+    <button [routerLink]="['']">CLOSE</button>
+  </div>
+</div>
+<ng-template #elseBlock>
+  <app-not-found text="ERROR,THE BOOK DOES NOT EXIST"></app-not-found
+></ng-template>

@@ -1,0 +1,18 @@
+<mat-form-field appearance="fill">
+  <mat-label>Filter by Category</mat-label>
+  <mat-select multiple #filterCategories [value]="category">
+    <mat-option
+      *ngFor="let category of categories"
+      [value]="category"
+      (click)="saveFilters(filterCategories.value)"
+    >
+      {{ category }}
+    </mat-option>
+  </mat-select>
+</mat-form-field>
+
+<mat-chip-list>
+  <mat-chip *ngFor="let category of filterCategories.value" [value]="category"
+    >{{ category }}
+  </mat-chip>
+</mat-chip-list>

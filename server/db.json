@@ -1,0 +1,184 @@
+{
+  "books": [
+    {
+      "id": 1,
+      "name": "Money Power",
+      "image": "assets/images/money-power.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "1998-01-16",
+      "category": "General",
+      "ISBN": 1234567890,
+      "description": "  From the outside, Goldman Sachs is a perfect company. The Goldman PR machine loudly declares it to be smarter, more ethical, and more profitable than all of its competitors. Behind closed doors, however, the firm constantly straddles the line between conflict of interest and legitimate deal making, wields significant influence over all levels of government, and upholds a culture of power struggles and toxic paranoia. And its clever bet against the mortgage market in 2007—unknown to its clients—may have made the financial ruin of the Great Recession worse. Money and Power reveals the internal schemes that have guided the bank from its founding through its remarkable windfall during the 2008 financial crisis. Through extensive research and interviews with the inside players, including current CEO Lloyd Blankfein, William Cohan constructs a nuanced, timely portrait of Goldman Sachs, the company that was too big—and too ruthless—to fail.",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "My First Love",
+      "image": "assets/images/my-firs-love.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "2000-03-03",
+      "category": "General",
+      "ISBN": 1234567890,
+      "description": " Amy Wyse has everything—except love. She doesn’t want a boyfriend to get in the way of her dreams of college and a swimming scholarship, goals toward which she’s worked hard. But then she’s swept off her feet by Chris Shepherd, an irresistible senior from the swim team. Suddenly Amy has romance and a promising future. Or does she? As she spends more and more time with Chris, her grades plummet and her swimming deteriorates. Amy thought she could have it all—but will she be left with nothing instead?",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "My Little life",
+      "image": "assets/images/my-litle-life.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "2005-07-11",
+      "ISBN": 1234567890,
+      "category": "General",
+      "description": "When four classmates from a small Massachusetts college move to New York to make their way, they're broke, adrift, and buoyed only by their friendship and ambition. There is kind, handsome Willem, an aspiring actor; JB, a quick-witted, sometimes cruel Brooklyn-born painter seeking entry to the art world; Malcolm, a frustrated architect at a prominent firm; and withdrawn, brilliant, enigmatic Jude, who serves as their center of gravity..",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Lost Trip",
+      "image": "assets/images/the-lost-daughter.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "2008-11-21",
+      "category": "History",
+      "ISBN": 1234567890,
+      "description": "Following an urge to rediscover his youth, Bill Bryson left his native Des Moines, Iowa, in a journey that would take him across 38 states. Lucky for us, he brought a notebook. With a razor wit and a kind heart, Bryson serves up a colorful tale of boredom, kitsch, and beauty when you least expect it. From Times Square to the Mississippi River to Williamsburg, Virginia, Bryson's keen and hilarious search for the perfect American small town is a journey straight into the heart and soul of America.",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Dark",
+      "image": "assets/images/dark.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "2018-02-14",
+      "category": "Fantasy",
+      "ISBN": 1234567890,
+      "description": "As it reads, we should flee from sexual immorality. Every other sin a person commits is outside the body, but the sexually immoral person sins against his own body.They teach us that these thoughts, these actions, are immoral. But that dark side that lives inside all of us, the true nature of man, drives us to seek the need that burns within, demanding to be set free. Deep inside of our bones lies that intrinsic need, one desperate to escape. An innate behavior, seemingly out of our control. One that screams for sins they tell us are condemning.",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Find Me",
+      "image": "assets/images/find-me.jpg",
+      "authorName": "Author",
+      "authorSurname": "Name",
+      "year": "2021-09-29",
+      "ISBN": 1234567890,
+      "category": "Literary",
+      "description": "The novel is split into four sections: Tempo, Cadenza, Capriccio, and Da Capo. Each of the sections focuses on a different character's point of view, and this is not stated explicitly. The sections vary in length, with Tempo being the longest at almost half the book and Da Capo the shortest.Tempo: Ten years after the events of Call Me By Your Name, Sami Perlman meets a younger woman named Miranda while traveling by train to Rome. The two quickly grow close, and strike up a romantic relationship. While in Rome, the couple visit Miranda's ailing father, attend a public lecture held by Sami, and meet with Elio.",
+      "deletedAt": null,
+      "reviews": [
+        {
+          "id": 1,
+          "firstName": "Nina",
+          "lastName": "Badzin",
+          "country": "USA",
+          "comment": "Fantastic book! I absolutely loved this essay collection. Guess I'm into collections right now. I had to read it with a tissue in my hand because in many parts i would tear up from trying to hold in my laughter."
+        }
+      ]
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "General"
+    },
+    {
+      "id": 2,
+      "name": "History"
+    },
+    {
+      "id": 3,
+      "name": "Fantasy"
+    },
+    {
+      "id": 4,
+      "name": "Literary"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Mihailo",
+      "lastName": "Protic",
+      "country": 1,
+      "email": "mihailo@gmail.com",
+      "password": "123",
+      "role": "admin",
+      "currentCreation": "2023-05-02T10:57:08.430Z"
+    },
+    {
+      "id": 2,
+      "firstName": "Nikola",
+      "lastName": "Nikolic",
+      "country": 2,
+      "email": "nikola@gmail.com",
+      "password": "nikola123",
+      "role": "user",
+      "currentCreation": "2023-05-02T10:58:01.113Z"
+    }
+  ],
+  "countries": [
+    {
+      "id": 1,
+      "name": "Serbia"
+    },
+    {
+      "id": 2,
+      "name": "UAE"
+    },
+    {
+      "id": 3,
+      "name": "Turkey"
+    }
+  ]
+}

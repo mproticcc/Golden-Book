@@ -1,0 +1,80 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+  <ng-container matColumnDef="dots">
+    <th mat-header-cell *matHeaderCellDef></th>
+    <td mat-cell *matCellDef="let element">⋮</td>
+  </ng-container>
+
+  <ng-container matColumnDef="image">
+    <th mat-header-cell *matHeaderCellDef><b>Image</b></th>
+    <td mat-cell *matCellDef="let element"><img [src]="element.image" /></td>
+  </ng-container>
+
+  <ng-container matColumnDef="name">
+    <th mat-header-cell *matHeaderCellDef><b>Title</b></th>
+    <td mat-cell *matCellDef="let element">{{ element.name }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="author">
+    <th mat-header-cell *matHeaderCellDef><b>Author</b></th>
+    <td mat-cell *matCellDef="let element">{{ element.author }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="year">
+    <th mat-header-cell *matHeaderCellDef><b>Year</b></th>
+    <td mat-cell *matCellDef="let element">{{ element.year }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="category">
+    <th mat-header-cell *matHeaderCellDef><b>Category</b></th>
+    <td mat-cell *matCellDef="let element">{{ element.category }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="description">
+    <th mat-header-cell *matHeaderCellDef><b>Description</b></th>
+    <td mat-cell *matCellDef="let element">
+      <button
+        matTooltip="See full description of book"
+        class="dialog-button"
+        mat-button
+        (click)="openDialog(element.id)"
+      >
+        Read more
+      </button>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="ISBN">
+    <th mat-header-cell *matHeaderCellDef><b>ISBN</b></th>
+    <td mat-cell *matCellDef="let element">{{ element.ISBN }}</td>
+  </ng-container>
+
+  <ng-container matColumnDef="review">
+    <th mat-header-cell *matHeaderCellDef><b>Reviewer / Review</b></th>
+    <td mat-cell class="ellipsis" *matCellDef="let element">
+      <p>
+        {{ element.reviews[0].firstName }} {{ element.reviews[0].lastName }} ({{
+          element.reviews[0].country
+        }}): {{ element.reviews[0].comment }}
+      </p>
+    </td>
+  </ng-container>
+
+  <ng-container matColumnDef="goBook">
+    <th mat-header-cell *matHeaderCellDef><b>Go back Book Overview</b></th>
+    <td mat-cell *matCellDef="let element">
+      <button
+        matTooltip="See the whole book"
+        [routerLink]="['/books', element.id]"
+        mat-button
+      >
+        <mat-icon>library_books</mat-icon>
+      </button>
+    </td>
+  </ng-container>
+
+  <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+  <tr mat-row *matRowDef="let row; columns: displayedColumns"></tr>
+</table>
+<div class="wrapper-pagination">
+  <app-page-number></app-page-number>
+</div>

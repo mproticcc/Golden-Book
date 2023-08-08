@@ -1,0 +1,26 @@
+@import "../../../../../styles/variables";
+h1,
+h3 {
+  color: $cream-book-color;
+}
+.top-content {
+  padding-left: 40px;
+  height: 1000px;
+}
+
+.add-new-book {
+  border-radius: 4px;
+  color: $cream-book-color;
+  background-color: $book-button-color;
+  border: none;
+  font-size: 16px;
+  margin: 25px 0px;
+  padding: 14px 50px;
+  width: max-content;
+  float: right;
+  &:hover {
+    color: $book-button-color;
+    background-color: $cream-book-color;
+    cursor: pointer;
+  }
+}

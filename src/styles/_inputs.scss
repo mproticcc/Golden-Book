@@ -1,0 +1,32 @@
+@import "variables";
+
+:host ::ng-deep {
+  .mat-form-field-underline {
+    display: none;
+  }
+
+  .mat-form-field {
+    padding: 1px;
+    background-color: $cream-book-color;
+    color: $book-search-inp;
+    border: none;
+    border-radius: 5px;
+    z-index: 1;
+    width: 33vw;
+    height: 50px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    button {
+      transform: translateY(9%);
+      border: none;
+      cursor: pointer;
+      font-size: 27px !important;
+      background-color: transparent;
+    }
+  }
+
+  mat-label {
+    color: $book-button-color-hv;
+    font-size: 17px;
+  }
+}

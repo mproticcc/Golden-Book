@@ -1,0 +1,33 @@
+<div class="dialog">
+  <h2 mat-dialog-title>{{ data.title }}</h2>
+  <mat-dialog-content class="mat-typography">
+    <p>{{ description }}</p>
+  </mat-dialog-content>
+  <mat-dialog-actions align="left">
+    <ng-container *ngIf="description === 'Do you want to save filters?'">
+      <button mat-button mat-dialog-close (click)="saveInStorage()">Yes</button>
+      <button mat-button mat-dialog-close (click)="leavePage()">
+        No
+      </button></ng-container
+    >
+    <ng-container
+      *ngIf="data.title === 'Are you sure that you want to leave page?'"
+    >
+      <button mat-button mat-dialog-close (click)="leavePage()">OK</button>
+      <button mat-button mat-dialog-close (click)="stayOnPage()">Cancel</button>
+    </ng-container>
+
+    <ng-container
+      *ngIf="
+        data.title === 'Book Description' ||
+        data.title === 'You are not registered'
+      "
+    >
+      <button mat-button mat-dialog-close>Cancel</button></ng-container
+    >
+
+    <ng-container *ngIf="data.title === 'You are successfully registered'">
+      <button mat-button mat-dialog-close>Ok</button></ng-container
+    >
+  </mat-dialog-actions>
+</div>

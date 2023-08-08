@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+:host ::ng-deep {
+  &.mat-paginator {
+    background-color: transparent;
+    color: $cream-book-color;
+    z-index: 1;
+    margin-top: 5px;
+
+    .mat-select-value-text,
+    .mat-select-arrow,
+    .mat-select-min-line {
+      color: $cream-book-color !important;
+    }
+  }
+
+  .mat-paginator-page-size-select {
+    background: transparent;
+    color: $cream-book-color;
+  }
+}

@@ -1,0 +1,42 @@
+@import "../../../../styles/inputs";
+
+::ng-deep {
+  &.mat-primary {
+    .mat-pseudo-checkbox-checked {
+      background-color: $book-button-color-hv !important;
+    }
+    .mat-option {
+      &.mat-selected {
+        &:not(.mat-option-disabled) {
+          color: $book-button-color-hv !important;
+        }
+      }
+    }
+  }
+  &.mat-select-panel {
+    background-color: $cream-book-color !important;
+  }
+
+  &.mat-select-min-line {
+    color: $book-button-color-hv !important;
+  }
+
+  &.mat-chip-list-wrapper {
+    margin: 0 !important;
+  }
+}
+
+.mat-chip {
+  background-color: $cream-book-color;
+  color: $book-button-color-hv;
+
+  button {
+    font-size: 15px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    &:hover {
+      background-color: $book-button-color;
+    }
+  }
+}

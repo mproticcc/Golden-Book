@@ -1,0 +1,49 @@
+@import "../../../../../styles/variables";
+
+.app-container {
+  height: 93%;
+  margin: 0;
+}
+.app-sidebar {
+  width: 230px;
+  text-align: center;
+  background-color: $black-color;
+  opacity: 0.7;
+  border-right: 3px solid $cream-book-color;
+  padding: 7px 0px;
+}
+::ng-deep.mat-expansion-indicator::after {
+  color: $cream-book-color;
+}
+
+.mat-sidenav {
+  height: 100%;
+}
+.mat-sidenav-container {
+  visibility: hidden;
+  left: 0;
+}
+.mat-toolbar {
+  background-color: transparent;
+  color: $cream-book-color;
+}
+.mat-expansion-panel {
+  background-color: $black-color;
+  opacity: 0.7;
+  color: $cream-book-color;
+}
+.mat-list-item,
+.mat-expansion-panel-header {
+  color: $cream-book-color;
+}
+.mat-list-base {
+  width: 90%;
+}
+.mat-list-item:hover {
+  opacity: 0.9;
+  background-color: $book-button-color;
+}
+.mat-expansion-panel-header:hover {
+  opacity: 0.9;
+  background-color: $book-button-color !important;
+}

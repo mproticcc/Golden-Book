@@ -1,0 +1,21 @@
+@import "../../../../styles/variables";
+
+.dialog {
+  background-color: $cream-book-color;
+}
+
+button {
+  border-radius: 4px;
+  color: $white-color;
+  background-color: $book-button-color;
+  border: none;
+  font-size: 16px;
+  margin: 5px 10px;
+  width: max-content;
+
+  &:hover {
+    color: $white-color;
+    background-color: $book-button-color-hv;
+    cursor: pointer;
+  }
+}

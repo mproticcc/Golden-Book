@@ -1,0 +1,69 @@
+@import "../../../../../styles/variables";
+@import "../../../../../styles/errors";
+
+.center-content {
+  display: block;
+  margin: 20px;
+}
+
+.container {
+  background-color: $cream-book-color;
+  display: flex;
+  position: relative;
+  width: 100%;
+}
+
+.left-side {
+  margin: 10px 0px 20px 10px;
+  width: 21%;
+  img {
+    width: 100%;
+    height: 81%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  h2 {
+    margin: 5px 0px 10px 0px;
+    color: $black-color;
+    text-align: left;
+  }
+}
+
+.right-side {
+  width: 70%;
+  margin-left: 20px;
+}
+
+h1 {
+  color: $cream-book-color;
+}
+button {
+  border-radius: 4px;
+  color: $cream-book-color;
+  background-color: $book-button-color;
+  border: none;
+  font-size: 16px;
+  margin: 25px 10px;
+  padding: 14px 50px;
+  width: max-content;
+  float: right;
+  &:hover {
+    color: $book-button-color;
+    background-color: $cream-book-color;
+    cursor: pointer;
+  }
+}
+
+.wrapper {
+  width: 84%;
+  display: table;
+  margin: auto;
+}
+
+h2 {
+  color: $cream-book-color;
+  font-size: 30px;
+  text-align: center;
+}
